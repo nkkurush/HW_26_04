@@ -116,7 +116,7 @@ public class Main {
             System.out.println("Список не отсортирован");
             for(int i=0; i<list4_5.size()-1; i++){
                 if(list4_5.get(i)>list4_5.get(i+1)){
-                    System.out.println(list4.get(k));
+                    System.out.println(list4.get(i+1));
                     break;
                 }
             }
